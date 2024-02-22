@@ -1,10 +1,10 @@
 function Countdown() {
   return (
-    <div class="relative">
-  <div class="bg-blue-500 h-20 w-20 relative">
-    <div class="absolute left-0 top-1/2 w-full h-0.5 bg-white"></div>
+    <div className="relative">
+  <div className="bg-blue-500 h-20 w-20 relative">
+    <div className="absolute left-0 top-1/2 w-full h-0.5 bg-white"></div>
   </div>
-  <div class="absolute top-0 left-0 bg-red-500 h-20 w-20"></div> 
+  <div className="absolute top-0 left-0 bg-red-500 h-20 w-20"></div> 
 </div>
 
 
