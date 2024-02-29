@@ -1,3 +1,4 @@
+import { IoPlayOutline } from "react-icons/io5";
 function Countdown() {
   return (
     <>
@@ -45,7 +46,7 @@ function Countdown() {
       </div>
       <div className="my-3 flex justify-center">
         <button className="rounded-md bg-[#343650] p-2 font-red-hat text-white ring ring-[#fb6087] hover:bg-opacity-60 hover:text-[#fb6087]">
-          Start
+          <IoPlayOutline className="text-[#fb6087]" />
         </button>
       </div>
     </>
