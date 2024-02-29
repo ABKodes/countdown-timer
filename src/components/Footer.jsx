@@ -2,11 +2,10 @@ import Hills from "../assets/pattern-hills.svg";
 
 function Footer() {
   return (
-    <div className="">
-      <div>Footer</div>
+    <div className="relative h-full">
       <img
         src={Hills}
-        className="flex w-full items-end justify-end"
+        className="absolute bottom-0 right-0 w-full"
         alt="Hills pattern"
       />
     </div>
