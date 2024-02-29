@@ -6,14 +6,14 @@ function App() {
   return (
     <html>
       <body
-        className="h-screen w-full bg-cover bg-center"
+        className="flex h-screen w-full flex-col bg-cover bg-center"
         style={{
           backgroundImage: `url(${Stars})`,
         }}
       >
         <Header />
         <Countdown />
-        <Footer/>
+        <Footer />
       </body>
     </html>
   );
