@@ -55,7 +55,7 @@ function Countdown() {
           <RxReload className="hidden" />
         </button>
       </div>
-      <div className="rounded-lg bg-[#191a24] p-4 space-y-4">
+      <div className="rounded-lg bg-[#191a24] p-4 space-y-4">  
         <div className="relative bg-inherit">
           <input
             type="text"
