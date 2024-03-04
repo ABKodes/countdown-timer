@@ -55,68 +55,11 @@ function Countdown() {
           <RxReload className="hidden" />
         </button>
       </div>
-      <div className="rounded-lg bg-[#191a24] p-4 space-y-4">  
-        <div className="relative bg-inherit">
-          <input
-            type="text"
-            id="username"
-            name="username"
-            className="peer h-10 w-72 rounded-lg bg-transparent px-2 text-[#fb6087] placeholder-transparent ring-2 ring-[#FC799A] transition-colors duration-300 focus:border-rose-600 focus:outline-none focus:ring-[#f9154f]"
-            placeholder="Hours"
-          />
-          <label
-            htmlFor="username"
-            className="absolute -top-3 left-0 mx-1 cursor-text bg-inherit px-1 text-[#fb6087] transition-all transition-colors duration-300 peer-placeholder-shown:top-2 peer-placeholder-shown:text-base peer-placeholder-shown:text-[#fb6087] peer-focus:-top-3 peer-focus:text-sm peer-focus:text-[#f9154f]"
-          >
-            Hours
-          </label>
-        </div>
-        <div className="relative bg-inherit">
-          <input
-            type="text"
-            id="username"
-            name="username"
-            className="peer h-10 w-72 rounded-lg bg-transparent px-2 text-[#fb6087] placeholder-transparent ring-2 ring-[#FC799A] transition-colors duration-300 focus:border-rose-600 focus:outline-none focus:ring-[#f9154f]"
-            placeholder="Hours"
-          />
-          <label
-            htmlFor="username"
-            className="absolute -top-3 left-0 mx-1 cursor-text bg-inherit px-1 text-[#fb6087] transition-all transition-colors duration-300 peer-placeholder-shown:top-2 peer-placeholder-shown:text-base peer-placeholder-shown:text-[#fb6087] peer-focus:-top-3 peer-focus:text-sm peer-focus:text-[#f9154f]"
-          >
-            Hours
-          </label>
-        </div>
-        <div className="relative bg-inherit">
-          <input
-            type="text"
-            id="username"
-            name="username"
-            className="peer h-10 w-72 rounded-lg bg-transparent px-2 text-[#fb6087] placeholder-transparent ring-2 ring-[#FC799A] transition-colors duration-300 focus:border-rose-600 focus:outline-none focus:ring-[#f9154f]"
-            placeholder="Hours"
-          />
-          <label
-            htmlFor="username"
-            className="absolute -top-3 left-0 mx-1 cursor-text bg-inherit px-1 text-[#fb6087] transition-all transition-colors duration-300 peer-placeholder-shown:top-2 peer-placeholder-shown:text-base peer-placeholder-shown:text-[#fb6087] peer-focus:-top-3 peer-focus:text-sm peer-focus:text-[#f9154f]"
-          >
-            Hours
-          </label>
-        </div>
-        <div className="relative bg-inherit">
-          <input
-            type="text"
-            id="username"
-            name="username"
-            className="peer h-10 w-72 rounded-lg bg-transparent px-2 text-[#fb6087] placeholder-transparent ring-2 ring-[#FC799A] transition-colors duration-300 focus:border-rose-600 focus:outline-none focus:ring-[#f9154f]"
-            placeholder="Hours"
-          />
-          <label
-            htmlFor="username"
-            className="absolute -top-3 left-0 mx-1 cursor-text bg-inherit px-1 text-[#fb6087] transition-all transition-colors duration-300 peer-placeholder-shown:top-2 peer-placeholder-shown:text-base peer-placeholder-shown:text-[#fb6087] peer-focus:-top-3 peer-focus:text-sm peer-focus:text-[#f9154f]"
-          >
-            Hours
-          </label>
-        </div>
-      </div>
+      <input
+        className="bg-[#191a24] px-8 w-full rounded-lg border border-[#fb6087] py-4 text-sm font-medium placeholder-[#fb6087] focus:border-[#f9154f] focus:outline-none"
+        type="email"
+        placeholder="hours"
+      />
     </>
   );
 }
