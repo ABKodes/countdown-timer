@@ -47,6 +47,66 @@ function Countdown() {
           </p>
         </div>
       </div>
+      <div className="flex h-screen items-center justify-center">
+        <div className="grid gap-4 sm:grid-cols-1 md:grid-cols-2">
+          <div className="relative">
+            <input
+              type="text"
+              id="Days"
+              className="peer border-b border-[#fb6087] bg-[#191a24] py-1 text-[#fb6087] transition-colors duration-300 hover:duration-300 focus:border-b-2 focus:border-[#F9154F] focus:outline-none"
+              autoComplete="off"
+            />
+            <label
+              htmlFor="Days"
+              className="absolute left-0 top-1 cursor-text text-[#fb6087] transition-all peer-focus:-top-4 peer-focus:text-xs peer-focus:text-[#F9154F]"
+            >
+              Days
+            </label>
+          </div>
+          <div className="relative">
+            <input
+              type="text"
+              id="Hours"
+              className="peer border-b border-[#fb6087] bg-[#191a24] py-1 text-[#fb6087] transition-colors duration-300 hover:duration-300 focus:border-b-2 focus:border-[#F9154F] focus:outline-none"
+              autoComplete="off"
+            />
+            <label
+              htmlFor="Hours"
+              className="absolute left-0 top-1 cursor-text text-[#fb6087] transition-all peer-focus:-top-4 peer-focus:text-xs peer-focus:text-[#F9154F]"
+            >
+              Hours
+            </label>
+          </div>
+          <div className="relative">
+            <input
+              type="text"
+              id="Minutes"
+              className="peer border-b border-[#fb6087] bg-[#191a24] py-1 text-[#fb6087] transition-colors duration-300 hover:duration-300 focus:border-b-2 focus:border-[#F9154F] focus:outline-none"
+              autoComplete="off"
+            />
+            <label
+              htmlFor="Minutes"
+              className="absolute left-0 top-1 cursor-text text-[#fb6087] transition-all peer-focus:-top-4 peer-focus:text-xs peer-focus:text-[#F9154F]"
+            >
+              Minutes
+            </label>
+          </div>
+          <div className="relative">
+            <input
+              type="text"
+              id="Seconds"
+              className="peer border-b border-[#fb6087] bg-[#191a24] py-1 text-[#fb6087] transition-colors duration-300 hover:duration-300 focus:border-b-2 focus:border-[#F9154F] focus:outline-none"
+              autoComplete="off"
+            />
+            <label
+              htmlFor="Seconds"
+              className="absolute left-0 top-1 cursor-text text-[#fb6087] transition-all peer-focus:-top-4 peer-focus:text-xs peer-focus:text-[#F9154F]"
+            >
+              Seconds
+            </label>
+          </div>
+        </div>
+      </div>
       <div className="mt-3 flex items-center justify-center">
         <button className="text-[#fb6087] transition-colors duration-300 hover:text-[#F9154F] hover:duration-300 sm:text-3xl md:text-4xl lg:text-5xl">
           <SlControlPlay className="" />
@@ -55,11 +115,6 @@ function Countdown() {
           <RxReload className="hidden" />
         </button>
       </div>
-      <input
-        className="bg-[#191a24] px-8 w-full rounded-lg border border-[#fb6087] py-4 text-sm font-medium placeholder-[#fb6087] focus:border-[#f9154f] focus:outline-none"
-        type="email"
-        placeholder="hours"
-      />
     </>
   );
 }
